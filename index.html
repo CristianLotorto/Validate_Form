@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>ValidationForm</title>
+</head>
+<body>
+    <div id="form-container">
+        <form action="submit" id="form">
+            <h1>Crear cuenta</h1>
+            <div id="input-div">
+                
+                <div class="input">
+                    <input type="text" name="name" id="input-name" value="Nombre">
+                    <div id="error-name" class="error"></div>
+                </div>
+
+                <div class="input">
+                    <input type="email" name="email" id="input-email" value="Email">
+                    <div id="error-email" class="error"></div>
+                </div>
+
+                <div class="input">
+                    <input name="pass" id="input-pass" value="Contraseña">
+                    <div id="error-pass" class="error"></div>
+                </div>
+
+            </div>
+
+            <div id="tyc-div">
+                <div class="checkbox">
+                    <input type="checkbox" name="tyc" id="tyc">
+                    <label for="tyc">Aceptar términos y condiciones</label>
+                </div>
+            </div>
+
+            <button id="button" type="submit">Registrarse</button>
+            <div class="error">
+                <ul id="error-list" class="error">
+
+                </ul>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
