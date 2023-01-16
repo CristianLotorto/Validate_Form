@@ -64,7 +64,7 @@ email.addEventListener("focus", ()=>{
 email.addEventListener("blur",()=>{
     if(email.value==""){
         email.value="Email";
-        errorEmail.innerHTML="<span>AH BOEEEH, el señor no quire llenar el formulario 'Email' QUE REBELDE ME SALIO!... menos mal que no te conozco porque seguro que sos peronista. Llena bien los campos querés!</span>";
+        errorEmail.innerHTML="<span>AH BOEEEH, el señor no quire llenar el formulario 'Email' QUE REBELDE ME SALIO!... Llena bien los campos!</span>";
     }else{
         errorEmail.innerHTML="";
     }
